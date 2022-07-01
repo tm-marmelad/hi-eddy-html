@@ -26,9 +26,9 @@ function getFooter(params) {
         <p><a class="footer-info__column" href="#">Місія</a></p>
       </div>
       <div class="courses__footer-text">
-        <p><a class="footer-info__column" href="#">Ціни</a></p>
-        <p><a class="footer-info__column" href="#">Як це працює</a></p>
-        <p><a class="footer-info__column" href="#">Уроки</a></p>
+        <p><a class="footer-info__column-right" href="#">Ціни</a></p>
+        <p><a class="footer-info__column-right" href="#">Як це працює</a></p>
+        <p><a class="footer-info__column-right" href="#">Уроки</a></p>
       </div>
     </div>
   </div>
@@ -71,3 +71,5 @@ function getFooter(params) {
     <!-- END. footer -->
   `;
 }
+
+

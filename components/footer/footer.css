@@ -19,12 +19,21 @@
   color: #520096;
 }
 
-.footer-info__column {
-  margin-right: 30px;
+.footer-info__column {  
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   color: #9747FF;
+  white-space: nowrap;
+}
+
+.footer-info__column-right {
+  margin-left: 98px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  color: #9747FF;
+  white-space: nowrap;
 }
 
 .footer-info__text {
@@ -88,7 +97,7 @@
   position: absolute;
   width: 33px;
   height: 19px;
-  left: 20%;
+  left: 18%;
   bottom: 6px;
 }
 
@@ -96,7 +105,7 @@
   position: absolute;
   width: 50px;
   height: 30px;
-  left: 25%;
+  left: 23%;
   bottom: 9px;
 }
 
@@ -104,7 +113,7 @@
   position: absolute;
   width: 50px;
   height: 30px;
-  left: 31%;
+  left: 28%;
   bottom: 29px;
 }
 
@@ -123,13 +132,13 @@
 .footer__liqpay {
   position: absolute;
 
-  left: 72%;
+  left: 74%;
   bottom: 13px;
 }
 
 .footer__visa {
   position: absolute;
-  left: 86%;
+  left: 87%;
   bottom: 0;
 }
 
